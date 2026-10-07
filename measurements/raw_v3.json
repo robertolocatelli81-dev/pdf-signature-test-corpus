@@ -1,0 +1,88 @@
+{
+ "A01_pades_bb_single.pdf": {
+  "0,1548,8692,639": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "A02_pkcs7_detached_single.pdf": {
+  "0,1455,8833,639": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "B01_pades_bt.pdf": {
+  "0,1548,16678,640": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "C01_two_signatures.pdf": {
+  "0,1548,8692,639": {
+   "note": "",
+   "openssl_verify_ok": true
+  },
+  "0,9847,16985,624": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "D01_incremental_after_signing.pdf": {
+  "0,1548,8692,639": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "E01_trailing_bytes.pdf": {
+  "0,1548,8692,639": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "E02_byterange_gap_wider.pdf": {
+  "0,1548,8716,615": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "F01_signed_content_byte_flipped.pdf": {
+  "0,1548,8692,639": {
+   "note": "CMS Verification failure",
+   "openssl_verify_ok": false
+  }
+ },
+ "G01_contents_sigvalue_flipped.pdf": {
+  "0,1548,8692,639": {
+   "note": "CMS Verification failure",
+   "openssl_verify_ok": false
+  }
+ },
+ "G02_contents_der_broken.pdf": {
+  "0,1548,8692,639": {
+   "note": "Error reading SMIME Content Info",
+   "openssl_verify_ok": false
+  }
+ },
+ "H01_expired_cert.pdf": {
+  "0,1548,8696,640": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "I01_non_ascii_signer.pdf": {
+  "0,1548,8732,788": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ },
+ "J01_unsigned.pdf": {},
+ "K01_truncated.pdf": {},
+ "K02_not_a_pdf.pdf": {},
+ "L01_empty_signature_field.pdf": {},
+ "M01_ecdsa_p256_sha384.pdf": {
+  "0,1731,7739,1207": {
+   "note": "",
+   "openssl_verify_ok": true
+  }
+ }
+}
